@@ -1,0 +1,13 @@
+html {
+  font-family: Georgia;
+  color: #fff;
+  background-color: #495562;
+}
+
+@media only screen and (min-width: 42em) {
+
+  html{
+    background-image: linear-gradient(rgba(73, 85, 98, 0));
+  }
+
+}
