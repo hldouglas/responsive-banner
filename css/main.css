@@ -4,10 +4,26 @@ html {
   background-color: #495562;
 }
 
+.btn {
+  background-color: #495562;
+  border: 2px solid #97a49b;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #97a49b;
+  border: 2px solid #fff;
+}
+
 @media only screen and (min-width: 42em) {
 
   html{
     background-image: linear-gradient(rgba(73, 85, 98, 0));
+  }
+
+  .btn {
+    background-color: transparent;
+    border: 2px solid #fff;
   }
 
 }
